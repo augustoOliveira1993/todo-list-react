@@ -32,13 +32,7 @@ form {
     margin: 2rem auto;
 }
 
-img {
-    position: absolute;
-    top: 50%;
-    left: 1.5rem;
-    transform: translateY(-50%);
-    width: 100%;
-}
+
 
 input {
     display: flex;
@@ -77,6 +71,13 @@ button.btn-add:hover {
     justify-content: center;
     width: 600px;
     margin: 5rem auto;
+}
+
+.listaTarefas img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .item {
