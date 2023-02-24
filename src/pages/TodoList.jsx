@@ -31,7 +31,9 @@ export const TodoList = () => {
     }
 
     const deleteAllTarefas = () => {
+        setNovoItem('')
         setTarefas([]);
+        document.getElementById('input-tarefa').focus();
     }
     return (
         <div>
